@@ -1,3 +1,8 @@
+##
+## Bruteforce over ssh
+## author Felipe Lima <felipe@felipelima.eti.br>
+##
+
 #!/usr/bin/env python3
 # Import playsound module
 from playsound import playsound
@@ -5,7 +10,6 @@ import pyaudio
 import wave
 import matplotlib.pyplot as plt
 import numpy as np
-import struct
 
 def main():
     chunk = 1024
