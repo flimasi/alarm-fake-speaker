@@ -29,7 +29,6 @@ def main():
                                    frames_per_buffer=chunk)
 
     framesWav = []
-
     # captura dados do microfone
     for nLoop in range(0, int(taxaDeAmostragem / chunk * tempoDeGravacao)):
         dadosLidosMic = streamMic.read(chunk)
